@@ -1,0 +1,8 @@
+Whenever u extract a time duration from Google Analytics it came as numbers, with this formula u can convert the duration in time:
+
+Example: GA: 150 NEWCOLUMN: 00:02:30
+
+Assuming that answers came as seconds.
+
+
+=ARRAYFORMULA(IF(D2:D="", "", TEXT(QUOTIENT(D2:D, 3600), "00") & ":" & TEXT(QUOTIENT(MOD(D2:D, 3600), 60), "00") & ":" & TEXT(MOD(D2:D, 60), "00")))

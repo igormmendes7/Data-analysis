@@ -149,9 +149,9 @@ def extract_answers_from_pdf(pdf_path):
 
     return df
 
-#
+
 dfs = []
-for i in range(1, 11):  # Assuming you have 10 PDFs as mentioned
+for i in range(1, 11):  # input the number of pdf files
     pdf_path = f"{base_path}practice_answers_{i}.pdf"
     dfs.append(extract_answers_from_pdf(pdf_path))
 

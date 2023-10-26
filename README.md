@@ -8,3 +8,4 @@ My main idea here in this space is to record all the answers to the questions I 
 -Lambda function to add a new column based on the previews colunmns returning unique values. sorting and concat
 
 #Google Analytics Duration Time transform = [Google Analytics Excel/sheet form](https://github.com/igormmendes7/Data-analysis/blob/main/Google_analytics_duration_time)
+-Converts int to datetime on excel or sheets
